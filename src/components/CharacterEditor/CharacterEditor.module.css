@@ -4,6 +4,15 @@
 }
 
 .maxWidthWrapper {
+  position: relative;
+}
+
+.perspectiveBar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40vh;
+  background-color: hsl(195deg, 20%, 86%);
 }
 
 .header {
@@ -16,15 +25,22 @@
   margin-top: 0;
   margin-bottom: 16px;
   letter-spacing: -0.5px;
+  width: 65%;
 }
 
 .description {
   font-size: 1.25rem;
   margin: 0;
+  width: 65%;
 }
 
 .characterWrapper {
+  height: 770px;
+  position: fixed;
+  top: 25px;
+  right: 0;
 }
 
 .controlColumn {
+  width: 50%;
 }
