@@ -17,6 +17,7 @@
 
 .header {
   padding-bottom: 64px;
+  width: 65%;
 }
 
 .title {
@@ -25,20 +26,19 @@
   margin-top: 0;
   margin-bottom: 16px;
   letter-spacing: -0.5px;
-  width: 65%;
 }
 
 .description {
   font-size: 1.25rem;
   margin: 0;
-  width: 65%;
 }
 
 .characterWrapper {
-  height: 770px;
+  min-height: 500px;
   position: fixed;
-  top: 25px;
-  right: 0;
+  top: 10%;
+  bottom: 5%;
+  left: 60%;
 }
 
 .controlColumn {
